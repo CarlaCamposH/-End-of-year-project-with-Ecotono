@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+body{
+    background-color: #f3f3f3;
+    width: 99%;
+}
+
+.div1{
+    background-color: #aad2be;
+    font-family: 'Darker Grotesque', sans-serif;
+    justify-content:  center;
+    height: auto;
+
+}
+
+.BlueDiv{
+ margin-top:10rem;
+ color:white;
+ margin-left: 2rem;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #aad2be;
+}
+
+.divForm{
+   height: 650px;
+   width: 400px;
+}
+
+.divForm>form>h1{
+    text-align:center;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.email-title{
+    margin-left: 2rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size:1.3rem;
+}
+
+.email{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+}
+
+.email>input{
+    height: 70px;
+    background-color: #f3f3f3;
+    border: 0;
+
+}
+
+.password-title{
+    margin-top:2rem;
+    margin-left: 2rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size:1.3rem;
+}
+
+.passwordDiv{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.passwordDiv>input{
+    height: 70px;
+    background-color: #f3f3f3;
+    border: 0;
+}
+
+.remember{
+    margin-top:1rem;
+    margin-left:2rem;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #aad2be;
+    border-color: #aad2be;
+}
+
+.loginButton{
+    background-color: #44464e;
+    height:50px;
+    width: 200px;
+    color:white;
+    font-size:1.3rem;
+}
+
+.loginButton:hover{
+    background-color: #aad2be;
+    color:white;
+    font-size:1.4rem;
+    transition: ease-in-out 0.1s;
+}
+
+.buttonRegister{
+    background-color: #c5c5c5;
+    height:50px;
+    width: 200px;
+    color:white;
+    font-size:1.4rem;
+    
+}
+.buttonRegister:hover{
+    background-color: #aad2be;
+    color:white;
+    font-size:1.6rem;
+    transition: ease-in-out 0.1s;
+}
+
+.divLogo{
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divLogo>img:hover{
+    height:200px;
+    width:200px;
+    transition: ease-in-out 0.25s;
+}

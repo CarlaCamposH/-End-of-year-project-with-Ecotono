@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #f3f3f3;
+    width: 100%;
+}
+
+  input[type=text], select, textarea,input[type=number],[type=password],[type=email] {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  
+.divForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 800px;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+  
+ }
+ .title{
+    color: #ccb2d0;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5rem;
+} 
+.title2{
+    color: #ccb2d0;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 3rem;
+} 
+.divForm>form{
+
+    background-color: white;
+
+}
+.inputDiv{
+    margin-top:1rem;
+    margin-right: 2rem;
+    margin-left:2rem;
+  
+  }
+  
+  .inputDiv>input{
+    height: 60px;
+    width: 570px;
+    background-color: #f3f3f3;
+    border: 0;
+  }
+
+  .div1{
+    background-color: #ccb2d0;
+    font-family: 'Darker Grotesque', sans-serif;
+    justify-content:  center;
+    width: 100%;
+    height: auto;
+   
+
+}
+
+.BlueDiv{
+ margin-top:10rem;
+ color:white;
+ margin-left: 2rem;
+ font-family: 'Darker Grotesque', sans-serif;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.button{
+    margin-block: 2rem;
+    }
+    
+    .button>.registerButton{
+       background-color: #44464e;
+      height:50px;
+      width: 100%;
+      color:white;
+      font-size:1.4rem; 
+    }
+    
+    
+    .registerButton:hover{
+      background-color: #ccb2d0;
+      color:white;
+      font-size:1.6rem;
+      transition: ease-in-out 0.1s;
+    }
+    
+.divLogo{
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .divLogo>img:hover{
+    height:200px;
+    width:200px;
+    transition: ease-in-out 0.25s;
+  }

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+/* NAVBAR STYLES */
+#logo{
+    padding-top: 5px;
+}
+#navbar{
+    background-color: #97c7c7;
+    font-size: 1.2rem;
+}
+.navbar {
+    height:55px !important;
+    background-color: #97c7c7;
+}
+.bkBlue{
+    background-color: #97c7c7;
+    width:20%;
+}
+.testC{
+    margin-top: 12px;
+    color:white;
+}
+#login{
+    margin-top: 12px;
+}
+#shopping-cart{
+    margin-top: 12px;
+}
+.texto{
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.texto:hover{
+    -webkit-transform:scale(1.05);transform:scale(1.05);
+    transition: ease-in-out 0.25s;
+}
+.logo:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    transition: ease-in-out 0.25s;
+}
+
+
+/* HOME STYLES */
+.divECO{
+    margin-top: 2rem;
+    font-weight:bold;
+   
+}
+
+.divTitles{
+     font-size: 300%;
+}
+
+.divP{
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-top: 2rem;
+}
+p{
+    font-size: 120%;
+}
+.footerHome{
+background-color: #97c7c7;
+} 
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 17.5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    justify-content: center;
+}
+.btn-circle:hover{
+background-color: #CCB2D0;
+}
+
+.divCookie, .acceptButton, .divCookie>.cruz>a>img{
+    animation-duration: 0.5s;
+    animation-name: divCookie;
+    animation-direction: alternate;
+
+  }
+  
+  @keyframes divCookie {
+    from {
+        color:transparent;
+        background: transparent;
+        visibility: hidden;
+    }
+  
+    to {
+        visibility: visible;
+
+
+   }
+  }
+
+
+
+.divCookie{
+
+   font-family: 'Darker Grotesque', sans-serif;
+   font-size: 1.2rem;  
+   text-align: center;
+   color: #FFF;
+background: #ccb2d0;
+position:fixed; /*El div será ubicado con relación a la pantalla*/
+left:0px; /*A la derecha deje un espacio de 0px*/
+right:0px; /*A la izquierda deje un espacio de 0px*/
+bottom:0px; /*Abajo deje un espacio de 0px*/
+height:150px; /*alto del div*/
+z-index:0;
+
+}
+
+.cookieTitle{
+    margin-top:40px;
+    margin-bottom:0;
+    
+}
+
+.divCookie>.cruz{
+    float: right;
+ 
+}
+
+
+.divCookie>h2>.acceptButton{
+    float:right;
+    margin-right: 100px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight:bold;
+    width: 140px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.3rem; 
+    color:#ccb2d0;
+}
+
+.divCookie>h2>.acceptButton:hover{
+    background-color: #E8ECE8;
+    font-weight:bold;
+    width: 140px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.4rem; 
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition: ease-in-out 0.25s;
+}
+
+.dropCs{
+    background-color:  #97c7c7;
+    font-family: 'Darker Grotesque', sans-serif;
+    border:none;
+}
+.dropCs>a{
+    color:white;
+    font-size:1.2rem;
+}
+
+.dropCs>a:hover{
+background-color:#bae7e79a;
+color:white;
+}

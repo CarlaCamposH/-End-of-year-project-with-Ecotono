@@ -1,0 +1,78 @@
+
+html,body{
+    background-color: #f3f3f3;
+    height: 100%;
+    font-family: 'Darker Grotesque', sans-serif;
+  }
+
+.title{
+	font-family: 'Darker Grotesque', sans-serif;
+	color:#97c7c7;
+	margin-top:2rem;
+	margin-bottom:0;
+}  
+
+.containerP>.title{
+    text-align: center;
+}
+
+.containerP>form>div>label{
+    font-size: 1.5rem;
+    color:#97c7c7;
+}
+
+.input{
+    background-color: #fafafa;
+    height: 45px;
+}
+
+/* FOOTER */
+
+
+.footerHomeAdd2{
+    background-color: #97c7c7;
+	position:  absolute;
+	bottom: 0;
+    width:100%;
+    } 
+
+.footerHomeAdd{
+  background-color: #97c7c7;
+position: relative;
+bottom: 0;
+  width:100%;
+  } 
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 17.5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    justify-content: center;
+}
+
+.btn-circle:hover{
+    background-color: #CCB2D0;
+}
+
+/* ADD BUTTON */
+.addButton{
+    text-align: center;
+    width: 230px;
+    background-color: #44464e;	
+    color:white;
+    font-size:140%;
+    height:50px;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-bottom:4rem;
+}
+
+.addButton:hover{ 
+    background-color:#97c7c7 ;
+    font-size: 160%;
+    color:white;
+    transition: ease-in-out 0.25s;
+}

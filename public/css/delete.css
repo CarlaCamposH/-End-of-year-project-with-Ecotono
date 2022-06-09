@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+
+body{
+    background-color: #f3f3f3;
+}
+
+.containerB{
+    width:90%;
+    min-height: 73.4vh; 
+    margin-bottom:3rem;
+}
+.containerB2{
+    text-align: center;
+}
+.containerB3{
+    text-align: center;
+    min-height: 73.4vh; 
+    margin-bottom:3rem;
+    margin-left:5rem;
+    margin-right:5rem;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonB{
+    text-align: center;
+    width: 150px;
+    background-color: #44464e;	
+    color:white;
+    font-size:140%;
+    height:50px;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-bottom:1.2rem;
+}
+
+.buttonB:hover{
+    background-color:rgba(146, 23, 23, 0.63);
+    transform: scale(1.1);
+    transition: ease-in-out 0.25s;
+    color:white;
+}
+
+.buttonC{
+    text-align: center;
+    width: 150px;
+    background-color: #44464e;	
+    color:white;
+    font-size:140%;
+    height:50px;
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+.buttonC:hover{
+    background-color:rgba(23, 146, 44, 0.63);
+    transform: scale(1.1);
+    transition: ease-in-out 0.25s;
+    color:white;
+}
+
+
+.producto{
+height: 730px;
+font-family: 'Darker Grotesque', sans-serif;
+margin-bottom:0;
+margin-top:0;
+
+}
+
+.producto>img{
+    display:block;
+    margin:auto;
+    
+}
+
+.producto>div>div>form>.DButton, .producto>div>div>form>.DelButton{
+    display:block;
+    margin:auto;
+}
+
+.producto>div>div>form{
+    margin-bottom:1rem;
+}
+
+.producto>.textos{
+    bottom:0;
+    width: 100%;
+}
+
+.DButton{
+    background-color: #97c7c7;
+    height:50px;
+    width: 200px;
+    color:white;
+    font-size:1.3rem;
+
+}
+
+.DButton:hover{
+    color:white;
+    font-size:1.5rem;
+    transition: ease-in-out 0.1s;
+}
+
+.DelButton{
+    background-color: #d08879;
+    height:50px;
+    width: 200px;
+    color:white;
+    font-size:1.3rem;
+
+}
+
+.DelButton:hover{
+    color:white;
+    font-size:1.5rem;
+    transition: ease-in-out 0.1s;
+}
+
+.textos{
+width:100%;
+font-size: 1.3rem;
+height: 20%;
+}
+
+.divFoto{
+    height: 60%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: 80%; 
+    background-position: 50% 50%;
+}
+
+.title{
+    color: #97c7c7;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.searchL{
+    margin-right:1.5rem;
+}
+.search{
+    color: #97c7c7;
+    font-size: 2rem;
+    margin-right:1.5rem;
+}
+
+.headerR{
+    color: #97c7c7; 
+}
+
+.mod{
+    text-align: center;
+    width: 150px;
+    background-color: #44464e;	
+    color:white;
+    font-size:140%;
+    height:50px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.mod:hover{
+    background-color:#97c7c7 ;
+    font-size: 160%;
+    color:white;
+    transition: ease-in-out 0.25s;
+}
+
+.listAll, .searchB{
+    text-align: center;
+    width: 150px;
+    background-color: #97c7c7;	
+    color:white;
+    font-size:140%;
+    height:50px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+
+.listAll:hover, .searchB:hover{
+    background-color:#97c7c7 ;
+    font-size: 160%;
+    color:white;
+    transition: ease-in-out 0.25s;
+}
+
+
+
+.aRemove:hover{
+    color:rgb(146, 23, 23);
+    transform: scale(1.5);
+    transition: ease-in-out 0.25s;
+}
+
+/* FOOTER */
+
+.footerHome{
+    background-color: #97c7c7;
+    position: relative;
+    bottom: 0;
+    width:100%;
+} 
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 17.5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    justify-content: center;
+}
+
+.btn-circle:hover{
+background-color: #CCB2D0;
+}
+
+.test:link, .test:visited, .test:active {
+    text-decoration:none;
+    color:#97c7c7;
+    
+}
+
+.test {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 0px;
+    transition: background-size .3s;
+}
+
+.test:hover, .test:focus {
+    background-size: 100% 3px;
+}
+
+.letraP{
+    font-size: 0.8rem;
+    float: right;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+html,body{
+    background-color: #f3f3f3;
+    height: 100%;
+    font-family: 'Darker Grotesque', sans-serif;
+  }
+
+
+
+.containerP, .containerT{
+    text-align:center;
+    margin-top:2rem;
+}
+
+.title{
+    color: #97c7c7;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.name{
+    color: #97c7c7;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5rem;
+}
+
+.buttonB:hover{
+    color:rgb(146, 23, 23);
+    transform: scale(1.5);
+    transition: ease-in-out 0.25s;
+}
+
+.tableT{
+    font-size: 1.4rem; 
+}
+
+.divPago{
+    height: 580px;
+    width: 400px;
+ }
+
+.divPago>form, .divPago>.title{
+    text-align:center;
+    margin-top:1.5rem;
+} 
+
+.contenidoP{
+    margin-left:2rem;
+    font-size: 1.5rem;
+}
+.containerPrincipal{
+
+    min-height: 73.4vh; 
+}
+
+
+.removeB{
+    background-color: #44464e;
+    height:50px;
+    width: 200px;
+    color:white;
+    font-size:1.3rem;
+}
+
+.removeB:hover{
+    background-color: #97c7c7;
+    color:white;
+    font-size:1.4rem;
+    transition: ease-in-out 0.1s;
+}
+
+.buyB{
+    background-color: #c5c5c5;
+    height:50px;
+    width: 200px;
+    color:white;
+    font-size:1.4rem;
+    
+}
+.buyB:hover{
+    background-color: #97c7c7;
+    color:white;
+    font-size:1.6rem;
+    transition: ease-in-out 0.1s;
+}
+
+/* FOOTER */
+
+
+.footerHome{
+    background-color: #97c7c7;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    } 
+.footerHome.bottom{
+	bottom: 0;
+    } 
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 17.5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    justify-content: center;
+}
+
+.btn-circle:hover{
+    background-color: #CCB2D0;
+}
+
+.carrito{
+    font-size: 4rem;
+    color: #97c7c7;
+}
+
+.carrito:hover{
+    color: #CCB2D0;
+}
+
+.iconos{
+    font-size: 2.3rem;
+    text-align: center;
+    color: #97c7c7;
+}

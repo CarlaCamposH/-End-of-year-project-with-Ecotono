@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+
+body{
+    background-color: #f3f3f3;
+}
+
+.containerB{
+    width:90%;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.producto{
+height:  820px;
+font-family: 'Darker Grotesque', sans-serif;
+margin-bottom:2rem;
+margin-top:0.5rem;
+width: 100%;
+
+}
+
+.producto>img{
+    display:block;
+    margin:auto;
+    
+}
+
+.producto>div>div>form>.DButton{
+    display:block;
+   
+}
+
+.producto>.textos{
+    bottom:0;
+    width: 100%;
+}
+
+.DButton{
+    background-color: #97c7c7;
+    height:50px;
+    width: 200px;
+    color:white;
+    font-size:1.3rem;
+
+}
+
+.DButton:hover{
+    color:white;
+    font-size:1.5rem;
+    transition: ease-in-out 0.1s;
+}
+
+.textos{
+width:100%;
+font-size: 1.3rem;
+height: 20%;
+}
+
+.divFoto{
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: 50% 70%;
+}
+
+.title{
+    color: #97c7c7;
+}
+
+/* FOOTER */
+
+.footerHome{
+    background-color: #97c7c7;
+    position: relative;
+    bottom: 0;
+    width:100%;
+} 
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 17.5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    justify-content: center;
+}
+
+.btn-circle:hover{
+background-color: #CCB2D0;
+}
+
+  /* pagination */
+   
+.page-link{
+    color:black;
+}
+
+.page-item{
+    margin-left:1rem;
+    border-radius: 7px;
+}
+
+.page-item.active .page-link {
+  border:none;
+border-radius: 7px;
+ 
+  color: #fff;
+ 
+  background-color: #97c7c7;
+
+ 
+}

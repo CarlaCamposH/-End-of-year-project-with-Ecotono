@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea,input[type=number],[type=password],[type=email] {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #ead2a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ead2a5;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h1{
+    margin-top: 2rem;
+    color:#ead2a5;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+  }
+  /*A partir de 200% se hace rojo*/
+  @media screen and (max-width: 992px) {
+    .col-75,input[type=text],input[type=submit], select, textarea,input[type=number],[type=password],[type=email] {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    h1 {
+      text-align: center;
+      padding-left:0px;
+      
+    }
+  }
+
+body{
+    background-color: #f3f3f3;
+    width: 100%;
+}
+
+.div1{
+    background-color: #ead2a5;
+    font-family: 'Darker Grotesque', sans-serif;
+    justify-content:  center;
+    width: 100%;
+    height: auto;
+   
+
+}
+
+.BlueDiv{
+ margin-top:10rem;
+ color:white;
+ margin-left: 2rem;
+ font-family: 'Darker Grotesque', sans-serif;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #e7c78b;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.divForm{
+   height: auto;
+   width: 800px;
+   margin-left:2rem;
+   margin-top:3rem;
+   margin-bottom:3rem;
+}
+
+.divForm>form>h1{
+    text-align:center;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.divForm>form>div{
+justify-content: center;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #ead2a5;
+    border-color: #ead2a5;
+}
+
+
+.todo{
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+}
+
+.inputDiv{
+  margin-top:1rem;
+  margin-right: 2rem;
+  margin-left:2rem;
+
+}
+
+.inputDiv>input{
+  height: 60px;
+  width: 570px;
+  background-color: #f3f3f3;
+  border: 0;
+}
+
+.button{
+margin-block: 2rem;
+}
+
+.button>.registerButton{
+   background-color: #44464e;
+  height:50px;
+  width: 200px;
+  color:white;
+  font-size:1.4rem; 
+}
+
+
+.registerButton:hover{
+  background-color: #ead2a5;
+  color:white;
+  font-size:1.6rem;
+  transition: ease-in-out 0.1s;
+}
+.title{
+  font-size:170%;
+}
+
+/* test */
+input[type='radio']:after {
+  width: 17px;
+  height: 17px;
+  border-radius: 15px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 17px;
+  height: 17px;
+  border-radius: 15px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: #ead2a5;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+
+.divLogo{
+  height:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divLogo>img:hover{
+  height:200px;
+  width:200px;
+  transition: ease-in-out 0.25s;
+}

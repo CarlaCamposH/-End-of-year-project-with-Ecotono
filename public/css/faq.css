@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+body{
+    background-color: #f3f3f3;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.bodyFaq{
+    margin-left: 10rem;
+    margin-right:10rem;
+}
+
+.title{
+    font-family: 'Darker Grotesque', sans-serif;
+	color:#97c7c7;
+	margin-top:2rem;
+	margin-bottom:0;
+}
+
+.sect{
+    text-align: center;
+    background-color: #97c7c7ab;
+    border-radius:15px;
+}
+
+.botones{
+float:left;
+
+
+}
+.textos{
+ margin-left:10rem;
+ font-size: 1.3rem ;
+}
+
+.divBody{
+    display:flex;
+}
+
+.footerHome{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 17.5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    justify-content: center;
+}
+
+.btn-circle:hover{
+    background-color: #CCB2D0;
+}
+
+.botonesfaq{
+    background-color: #97c7c7;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 11px;
+    width: 100%;
+    height: auto;
+    border: none;
+    color:white;
+    font-size: 1.2rem;
+}
+
+.botonesfaq:hover{
+    transform:scale(1.05);
+    transition: ease-in-out 0.25s;
+    font-size: 1.4rem;
+    color:white;
+}

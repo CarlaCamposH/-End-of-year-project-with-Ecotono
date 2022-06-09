@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+body{
+    background-color: #f3f3f3;
+    width: 99%;
+}
+
+.div1{
+    background-color: #d08879;
+    font-family: 'Darker Grotesque', sans-serif;
+    justify-content:  center;
+    height: auto;
+
+}
+
+.BlueDiv{
+ margin-top:10rem;
+ color:white;
+ margin-left: 2rem;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.divForm, .card-body{
+    width: 60%;
+ }
+
+ .email-title{
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size:1.3rem;
+    width: 100%;
+    color: #d08879;
+}
+
+ .email, button, title{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+}
+
+.email>input{
+    height: 35px;
+    background-color: #f3f3f3;
+    border: 0;
+
+}
+
+.buttonRegister{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border:none;
+    background-color: #c5c5c5;
+    height:50px;
+    width: 89%;
+    color:white;
+    font-size:1.4rem;
+    
+}
+
+.buttonRegister:hover{
+    background-color: #d08879;
+    color:white;
+    font-size:1.45rem;
+    transition: ease-in-out 0.1s;
+}
+
+.divLogo{
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divLogo>img:hover{
+    height:200px;
+    width:200px;
+    transition: ease-in-out 0.25s;
+}

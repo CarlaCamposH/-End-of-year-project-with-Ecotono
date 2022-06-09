@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+html,body{
+    background-color: #f3f3f3;
+    height: 99%;
+    font-family: 'Darker Grotesque', sans-serif;
+  }
+
+  
+.containerP{
+    margin-bottom:3rem;
+}
+
+.titleh1{
+    color: #97c7c7;
+}
+
+.title{
+    color: #97c7c7;
+    font-size: 1.3rem;
+}
+
+.ActBtn{
+    background-color: #c5c5c5;
+    height:50px;
+    width: 250px;
+    color:white;
+    font-size:1.3rem; 
+    margin-top: 2rem;
+    
+}
+.ActBtn:hover{
+    background-color: #97c7c7;
+    color:white;
+    font-size:1.5rem;
+    transition: ease-in-out 0.1s;
+}
+
+.ActBtn2{
+    background-color: #97c7c7;
+    height:50px;
+    width: 250px;
+    color:white;
+    font-size:1.3rem; 
+    margin-top: 2rem;
+    
+}
+.ActBtn2:hover{
+    background-color: #c5c5c5;
+    color:white;
+    font-size:1.5rem;
+    transition: ease-in-out 0.1s;
+}
+
+.cardC{
+    margin-top:30%;
+    height: 650px;
+    width: 400px;
+}
+
+.ctitle{
+    margin-top:2rem;
+    margin-left:1.3rem;
+}
+
+.inputC{
+    width: 50%;
+    margin-left:1.3rem;
+}
+
+.margin{
+    margin-left:1.3rem;
+}
+
+/* FOOTER */
+
+.footerHome{
+    background-color: #97c7c7;
+    position: relative;
+    bottom: 0;
+    width:100%;
+} 
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 17.5px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    justify-content: center;
+}
+
+.btn-circle:hover{
+background-color: #CCB2D0;
+}
